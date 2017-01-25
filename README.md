@@ -48,12 +48,16 @@ scope.schema = {
                             "format":"mask",
                             "description": "Provide your Phone number in XXX-XXX-XXX format",
                             "maskFormat": "111-111-111",
-                            "maskRepeat": "0"
+                            "maskRepeat": "2"
                         }
                     },
                     "required": ["PHONE_NUMBER"]
             };
 ```
+
+MaskFormat Examples
+--------------------
+[How to use ngMask] (http://candreoliveira.github.io/bower_components/angular-mask/examples/index.html#/)
 
 
 ## License
