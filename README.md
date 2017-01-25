@@ -47,7 +47,7 @@ scope.schema = {
                             "title":"Phone Number",
                             "format":"mask",
                             "description": "Provide your Phone number in XXX-XXX-XXX format",
-                            "maskFormat": "01/01/1980",
+                            "maskFormat": "111-111-111",
                             "maskRepeat": "0"
                         }
                     },
