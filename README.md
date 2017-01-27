@@ -57,11 +57,11 @@ scope.schema = {
 
 MaskFormat
 ----------
-MaskFormat allows from 0 to 9 for numbers. If all numbers are allowed, you should give 9. If you want to restrict to US phone number you could do maskFormat:"+1-999-999-999" More
+MaskFormat allows from 0 to 9 for numbers. If all numbers are allowed, you should give 9. If you want to restrict to US phone number you could do maskFormat:"+1-999-999-999".
 
 MaskFormat Examples
 --------------------
-[How to use ngMask] (http://candreoliveira.github.io/bower_components/angular-mask/examples/index.html#/)
+For more detailed examples please visit the [How to use ngMask] (http://candreoliveira.github.io/bower_components/angular-mask/examples/index.html#/) documentation.
 
 
 ## License
