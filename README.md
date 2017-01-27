@@ -47,13 +47,17 @@ scope.schema = {
                             "title":"Phone Number",
                             "format":"mask",
                             "description": "Provide your Phone number in XXX-XXX-XXX format",
-                            "maskFormat": "111-111-111",
+                            "maskFormat": "999-999-999",
                             "maskRepeat": "2"
                         }
                     },
                     "required": ["PHONE_NUMBER"]
             };
 ```
+
+MaskFormat
+----------
+MaskFormat allows from 0 to 9 for numbers. If all numbers are allowed, you should give 9. If you want to restrict to US phone number you could do maskFormat:"+1-999-999-999" More
 
 MaskFormat Examples
 --------------------
