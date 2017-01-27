@@ -1,5 +1,5 @@
 {
-  "name": "angular-schema-form-masks",
+  "name": "angular-schema-form-mask",
   "description": "A plugin to display masks for text field entry",
   "main": "angular-schema-form-mask.js",
   "authors": [
@@ -16,7 +16,7 @@
     "schema-form",
     "json-schema"
   ],
-  "homepage": "https://github.com/rafialikhan/angular-schema-form-masks",
+  "homepage": "https://github.com/rafialikhan/angular-schema-form-mask",
   "ignore": [
     "**/.*",
     "node_modules",
