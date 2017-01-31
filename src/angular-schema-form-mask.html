@@ -1,8 +1,8 @@
-<div class="form-group" ng-class="schema-form-mask {'has-error': hasError()}">
+<div class="form-group" class="schema-form-mask" ng-class="{'has-error': hasError()}">
 	<label class="control-label" ng-show="showTitle()">{{form.title}}</label>
     <div>
 
-		<input type="text" ng-model="$$value$$" mask="{{form.schema.maskFormat}}" mask-repeat="{{form.schema.maskRepeat || undefined}}" />
+		<input type="text" ng-model="$$value$$" mask="{{form.schema.maskFormat}}" mask-repeat="{{form.schema.maskRepeat || undefined}}" class="form-control"/>
 
     </div>
     <span class="help-block">{{ (hasError() && errorMessage(schemaError())) || (form.schema.description || form.description)}}</span>
